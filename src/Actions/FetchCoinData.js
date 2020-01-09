@@ -22,7 +22,7 @@ const fetchingCoinSuccess = (coins) => {
 }
 
 
-//THUNK CREATOR
+//THUNK 
   export default function FetchCoinData() {
     return async dispatch => {     
          dispatch({ type: FETCHING_COIN_DATA })

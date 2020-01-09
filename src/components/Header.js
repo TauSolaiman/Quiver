@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export function Header() {
   return (
       <View style={headerContainer}>
-        <Text style={header}>My App</Text>
+        <Text style={header}>Quiver</Text>
       </View>
   )
 }
@@ -16,8 +16,10 @@ const styles = StyleSheet.create({
     display: "flex",
     marginTop: 55,
     alignItems: "center",
+    backgroundColor: '#000000'
   },
   header: {
+    color: "#00BFA5",
     fontWeight: "bold",
     fontSize: 20,
     marginBottom: 20

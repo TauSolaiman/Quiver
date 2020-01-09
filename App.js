@@ -6,6 +6,7 @@ import Store from './src/Store'
 import { Header, CryptoContainer } from './src/components'
 
 
+
 export default class App extends Component {
   render() {
     return (
@@ -23,11 +24,11 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 5,
-    borderColor: "#FACECB"
+    borderColor: "#000000"
   },
 });
 

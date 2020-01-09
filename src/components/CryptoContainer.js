@@ -20,6 +20,7 @@ class CryptoContainer extends Component {
                 coin_name={coin.name}
                 symbol={coin.symbol}
                 price_usd={coin.price_usd}
+                total_supply={coin.total_supply}
                 percent_change_24h={coin.percent_change_24h}
                 percent_change_7d={coin.percent_change_7d}
             />
@@ -61,7 +62,8 @@ const styles = StyleSheet.create({
         paddingTop: 55,
         marginBottom: 40,
         borderWidth: 2,
-        borderColor: "#FFFFFF"
+        borderColor: "#000000",
+        backgroundColor: "#000000"
 
     }
 })
